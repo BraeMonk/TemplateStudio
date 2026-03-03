@@ -1,5 +1,5 @@
 /* SERVICE WORKER — DIGITAL TEMPLATE STUDIO */
-const CACHE_NAME = 'template-studio-v1';
+const CACHE_NAME = 'template-studio-v2';
 const CACHE_URLS = ['./', './index.html', './css/app.css', './js/app.js', './js/templates.js', './manifest.json', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', event => {
